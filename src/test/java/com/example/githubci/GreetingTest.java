@@ -15,5 +15,6 @@ class GreetingTest {
     void Should_Greet_When_GiveName(){
         assertThat(Greeting.greet("zak"))
                 .isEqualTo("Hello Zak");
+
     }
 }
