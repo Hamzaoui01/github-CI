@@ -21,5 +21,8 @@ jobs:
           java-version: 11
           java-package: jdk
             
+      - name: Run tests 
+        run: mvn test
+        
       - name: Compile maven project
         run: mvn compile
