@@ -13,8 +13,8 @@ class GreetingTest {
 
     @Test
     void Should_Greet_When_GiveName(){
-        assertThat(Greeting.greet("zak"))
-                .isEqualTo("Hello zak");
+        assertThat(Greeting.greet("zaka"))
+                .isEqualTo("Hello zaka");
 
     }
 }
