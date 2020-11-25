@@ -17,4 +17,10 @@ class GreetingTest {
                 .isEqualTo("Hello zaka");
 
     }
+
+    @Test
+    void test(){
+        assertThat("")
+                .isEqualTo("");
+    }
 }
